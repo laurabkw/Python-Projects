@@ -1,0 +1,7 @@
+def escreva(mensagem):
+    tam=len(mensagem)+4
+    print('~'*tam)
+    print(mensagem)
+    print('~'*tam)
+
+escreva(input('Digite uma frase: '))
